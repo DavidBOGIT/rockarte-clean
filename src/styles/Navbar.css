@@ -1,0 +1,23 @@
+.p-menubar {
+    background-color: #031323;
+    border: none;
+}
+
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link {
+    color: #ffffff;
+}
+
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link:hover {
+    background-color: #49535d;
+}
+
+.p-menubar .p-menubar-end .p-inputtext {
+    color: #ffffff;
+    border-color: #495057;
+    background-color: #495057;
+}
+
+.p-menubar .p-menubar-end .p-inputtext::placeholder {
+    color: #ced4da;
+}
+
