@@ -1,0 +1,29 @@
+.home-page {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.custom-carousel .p-carousel-container {
+    width: 100%;
+}
+
+.image-item {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.p-carousel .p-carousel-prev, 
+.p-carousel .p-carousel-next {
+    display: none;
+}

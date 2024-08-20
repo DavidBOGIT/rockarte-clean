@@ -1,24 +1,27 @@
 import React from 'react';
 import { Carousel } from 'primereact/carousel';
-import { Button } from 'primereact/button';
+import '../styles/Home.css';
 
-const products = [
-    { id: '1', name: 'Producto 1', image: 'path/to/image1.jpg' },
-    { id: '2', name: 'Producto 2', image: 'path/to/image2.jpg' },
-    { id: '3', name: 'Producto 3', image: 'path/to/image3.jpg' },
+const images = [
+    { id: 1, src: '/imagenes-de-proyecto/mollejon/mollejonRusticoF.jpg', alt: 'Proyecto 1' },
+
+    { id: 2, src: '/imagenes-de-proyecto/piedra para jardines/granitoMulticolorF.jpg', alt: 'Proyecto 2' },
+    { id: 3, src: '/imagenes-de-proyecto/proyectos realizados/laja negra recortes combinados.jpeg', alt: 'Proyecto 3' },
+    // Agrega más imágenes aquí
 ];
 
-function Home() {
+const Home = () => {
+
     const responsiveOptions = [
         {
             breakpoint: '1024px',
-            numVisible: 3,
-            numScroll: 3
+            numVisible: 1,
+            numScroll: 1
         },
         {
             breakpoint: '768px',
-            numVisible: 2,
-            numScroll: 2
+            numVisible: 1,
+            numScroll: 1
         },
         {
             breakpoint: '560px',
@@ -27,28 +30,27 @@ function Home() {
         }
     ];
 
-    const productTemplate = (product) => {
+    const imageTemplate = (image) => {
         return (
-            <div className="product-item">
-                <div className="product-item-content">
-                    <div className="p-mb-3">
-                        <img src={product.image} alt={product.name} className="product-image" />
-                    </div>
-                    <div>
-                        <h4>{product.name}</h4>
-                        <Button label="Ver más" className="p-button-rounded p-button-secondary" />
-                    </div>
-                </div>
+            <div className="image-item">
+                <img src={image.src} alt={image.alt} className="carousel-image" />
             </div>
         );
     };
 
     return (
         <div className="home-page">
-            <h1>Bienvenido a RockArte</h1>
-            <Carousel value={products} numVisible={3} numScroll={3} responsiveOptions={responsiveOptions} itemTemplate={productTemplate} />
+            <Carousel 
+                value={images} 
+                itemTemplate={imageTemplate} 
+                numVisible={1} 
+                numScroll={1} 
+                autoplayInterval={3000} 
+                responsiveOptions={responsiveOptions} 
+                className="custom-carousel"
+            />
         </div>
     );
-}
+};
 
 export default Home;
