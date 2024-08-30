@@ -4,6 +4,8 @@ import '../styles/About.css';
 function About() {
   return (
     <div className="about-page">
+        <div className="about-background"></div> {/* Imagen de fondo fija */}
+      
       <h1 className="about-title">Sobre Nosotros</h1>
       
       <section className="about-section">

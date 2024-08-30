@@ -7,7 +7,7 @@
 .products-title {
     text-align: center;
     font-size: 2.5rem;
-    color: #2c3e50;
+    color: #2a3036;
     margin-bottom: 2rem;
 }
 
@@ -42,11 +42,24 @@
 
 .category-content h2 {
     font-size: 1.75rem;
-    color: #285776;
+    color: #000000;
     margin-bottom: 0.5rem;
+    
 }
 
 .category-content p {
     font-size: 1rem;
-    color: #34495e;
+    color: #000000;
+    
+}
+
+
+
+.product-list a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: inherit; /* Mantiene el color del enlace según el contexto */
+}
+
+.product-list a:hover {
+    text-decoration: underline; /* (Opcional) Añade subrayado al pasar el cursor por encima */
 }

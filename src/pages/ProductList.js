@@ -4,16 +4,20 @@ import '../styles/ProductList.css';
 
 const products = {
     'garden-stone': [
-        { id: 1, name: 'Piedra de Jardín 1', image: 'path/to/image1.jpg', price: 10000, rating: 4.5 },
-        { id: 2, name: 'Piedra de Jardín 2', image: 'path/to/image2.jpg', price: 12000, rating: 4.0 },
+        { id: 1, name: 'Granito Blanco', image: '../imagenes-de-proyecto/piedra-para-jardines/granito-blanco.jpg', price: 3000, rating: 4.5 },
+        { id: 2, name: 'Granito Mixto', image: '../imagenes-de-proyecto/piedra-para-jardines/granito-multicolor.jpg', price: 3000, rating: 4.9 },
+        { id: 3, name: 'Granito Rojo', image: '../imagenes-de-proyecto/piedra-para-jardines/granito-rojo.jpg', price: 3000, rating: 4.5 },
+        { id: 4, name: 'Granito Negro', image: '../imagenes-de-proyecto/piedra-para-jardines/granito-sanchez.jpg', price: 3000, rating: 4.3 },
+        { id: 5, name: 'Quintilla Blanca', image: '../imagenes-de-proyecto/piedra-para-jardines/quinta-blanca.jpg', price: 4000, rating: 4.5 },
+        { id: 6, name: 'Granito Mollejon', image: '../imagenes-de-proyecto/piedra-para-jardines/quinta-mollejon.jpg', price: 3000, rating: 4.0 },
     ],
     'enchape-stone': [
-        { id: 3, name: 'Piedra de Enchape 1', image: 'path/to/image3.jpg', price: 15000, rating: 4.8 },
-        { id: 4, name: 'Piedra de Enchape 2', image: 'path/to/image4.jpg', price: 14000, rating: 4.2 },
+        { id: 7, name: 'Mollejon Rustico', image: '../imagenes-de-proyecto/mollejon/mollejonRusticoF.jpg', price: 6000, rating: 4.8 },
+        { id: 8, name: 'Mollejon Pulido', image: '../imagenes-de-proyecto/mollejon/mollejonpulido.jpg', price: 6500, rating: 4.2 },
     ],
     'floor-stone': [
-        { id: 5, name: 'Piedra para Piso 1', image: 'path/to/image5.jpg', price: 18000, rating: 4.7 },
-        { id: 6, name: 'Piedra para Piso 2', image: 'path/to/image6.jpg', price: 17000, rating: 4.3 },
+        { id: 9, name: 'Laja Negra palillo', image: '../imagenes-de-proyecto/lajas/laja-gris-palillo.jpeg', price: 16500, rating: 4.7 },
+        { id: 10, name: 'Laja Gris cuadrada', image: '../imagenes-de-proyecto/lajas/lajagriscuadro.jpg', price: 15000, rating: 4.3 },
     ]
 };
 

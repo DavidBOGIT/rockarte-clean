@@ -29,7 +29,7 @@ const Navbar = () => {
         }
     ]);
 
-    const start = <img alt="rockarte" src="path/to/logo.png" height="40" className="p-mr-2"></img>;
+    const start = <img alt="rockarte" src="imagenes-de-proyecto/logorockarte.jpeg" height="40" className="p-mr-2"></img>;
     const end = (
         <span className="p-input-icon-left">
             <i className="pi pi-search" />
@@ -38,7 +38,7 @@ const Navbar = () => {
     );
 
     return (
-        <Menubar model={items} start={start} end={end} />
+        <Menubar model={items} start={start} end={end} className='navbar-fixed' />
     );
 }
 

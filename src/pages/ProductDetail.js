@@ -4,16 +4,20 @@ import '../styles/ProductDetail.css';
 
 const products = {
     'garden-stone': [
-        { id: 1, name: 'Piedra de Jardín 1', image: 'path/to/image1.jpg', price: '₡10,000', rating: 4.5, description: 'Descripción detallada de Piedra de Jardín 1.' },
-        { id: 2, name: 'Piedra de Jardín 2', image: 'path/to/image2.jpg', price: '₡12,000', rating: 4.0, description: 'Descripción detallada de Piedra de Jardín 2.' },
+        { id: 1, name: 'Granito Blanco', image: '../imagenes-de-proyecto/piedra-para-jardines/granito-blanco.jpg', price: '₡3,000', rating: 4.5, description: 'Ideal para decorar macetas, en presentacion de saco de 25 kilogramos ' },
+        { id: 2, name: 'Granito Mixto', image: '../imagenes-de-proyecto/piedra-para-jardines/granito-multicolor.jpg', price: '₡3,000', rating: 4.0, description: 'ideal para decorar macetas y jardines, en presentacion de saco de 20 kilogramos' },
+        { id: 3, name: 'Granito Rojo', image: '../imagenes-de-proyecto/piedra-para-jardines/granito-rojo.jpg', price: '₡3,000', rating: 4.5, description: 'ideal para decoracion de macetas y bordes de lago, en presentacion de saco de 20 kilogramos' },
+        { id: 4, name: 'Granito Negro', image: '../imagenes-de-proyecto/piedra-para-jardines/granito-sanchez.jpg', price: '₡3,000', rating: 4.0, description: 'ideal para rellenar bordes de acera y huellas, en presentacion de saco de 20 kilogramos' },
+        { id: 5, name: 'Quintilla Blanca', image: '../imagenes-de-proyecto/piedra-para-jardines/quinta-blanca.jpg', price: '₡4,000', rating: 4.5, description: 'ideal para rodear plantas y funciona para relleno de piso para restaurates, garages, etc. en presentacion de saco de 25 kilogramos' },
+        { id: 6, name: 'Granito Mollejon', image: '../imagenes-de-proyecto/piedra-para-jardines/quinta-mollejon.jpg', price: '₡3,000', rating: 4.0, description: 'ideal para decorar jardines (bajo techo) y rodear plantas. en presentacion de saco de 25 kilogramos' },
     ],
     'enchape-stone': [
-        { id: 3, name: 'Piedra de Enchape 1', image: 'path/to/image3.jpg', price: '₡15,000', rating: 4.8, description: 'Descripción detallada de Piedra de Enchape 1.' },
-        { id: 4, name: 'Piedra de Enchape 2', image: 'path/to/image4.jpg', price: '₡14,000', rating: 4.2, description: 'Descripción detallada de Piedra de Enchape 2.' },
+        { id: 7, name: 'Mollejon Rustico', image: 'C:\Users\David B\rockarte-clean\public\imagenes-de-proyecto\mollejon\mollejonRusticoF.jpg', price: '₡6000', rating: 4.8, description: 'exclusivo para fachada e interiores bajo techo. precio es por metro cuadrado' },
+        { id: 8, name: 'Mollejon Pulido', image: 'public\imagenes-de-proyecto\mollejon\mollejonPulido.jpg', price: '₡6500', rating: 4.2, description: 'exclusivo para fachada e interiores bajo techo. precio es por metro cuadrado' },
     ],
     'floor-stone': [
-        { id: 5, name: 'Piedra para Piso 1', image: 'path/to/image5.jpg', price: '₡18,000', rating: 4.7, description: 'Descripción detallada de Piedra para Piso 1.' },
-        { id: 6, name: 'Piedra para Piso 2', image: 'path/to/image6.jpg', price: '₡17,000', rating: 4.3, description: 'Descripción detallada de Piedra para Piso 2.' },
+        { id: 9, name: 'Laja Gris palillo', image: '../imagenes-de proyecto.jpg', price: '₡18,000', rating: 4.7, description: 'Descripción detallada de Piedra para Piso 7.' },
+        { id: 10, name: 'laja Gris cuadrada', image: 'path/to/image6.jpg', price: '₡17,000', rating: 4.3, description: 'Descripción detallada de Piedra para Piso 8.' },
     ]
 };
 

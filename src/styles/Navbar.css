@@ -1,14 +1,30 @@
+.navbar-fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Asegura que el navbar esté por encima de otros elementos */
+    background-color:  #031323;; /* O el color que estés utilizando */
+    /* padding: 10px 20px; */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Opcional: agrega una sombra para destacarlo */
+}
+
+.about-page {
+    padding-top: 80px; /* Ajusta este valor según la altura del navbar */
+}
+
+
+
 .p-menubar {
     background-color: #031323;
     border: none;
 }
 
 .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link {
-    color: #ffffff;
+    color: #fffdfd;
 }
 
 .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link:hover {
-    background-color: #49535d;
+    background-color: #454a50;
 }
 
 .p-menubar .p-menubar-end .p-inputtext {
@@ -20,4 +36,7 @@
 .p-menubar .p-menubar-end .p-inputtext::placeholder {
     color: #ced4da;
 }
+
+
+
 
