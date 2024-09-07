@@ -1,42 +1,82 @@
+
 .navbar-fixed {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1000; /* Asegura que el navbar esté por encima de otros elementos */
-    background-color:  #031323;; /* O el color que estés utilizando */
-    /* padding: 10px 20px; */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Opcional: agrega una sombra para destacarlo */
+    background-color: #000000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    padding: 10px 20px;
 }
 
-.about-page {
-    padding-top: 80px; /* Ajusta este valor según la altura del navbar */
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #007bff;
 }
 
 
+.cart-icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-.p-menubar {
-    background-color: #031323;
+.cart-icon .p-button {
+    background-color: #3498db;
+    color: white;
     border: none;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
 }
 
-.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link {
-    color: #fffdfd;
-}
-
-.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link:hover {
-    background-color: #454a50;
-}
-
-.p-menubar .p-menubar-end .p-inputtext {
-    color: #ffffff;
-    border-color: #495057;
-    background-color: #495057;
-}
-
-.p-menubar .p-menubar-end .p-inputtext::placeholder {
-    color: #ced4da;
+.cart-icon .p-button:hover {
+    background-color: #2980b9;
 }
 
 
+.p-badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 0.8rem;
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 50%;
+    padding: 4px 6px;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .nav-links li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .cart-icon {
+        margin-top: 10px;
+    }
+}
 
 

@@ -25,7 +25,7 @@ const Contact = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log({ name, email, telefono, message, messagePreference, bestTime });
-        // Aquí podrías agregar la lógica para enviar los datos a un servidor o servicio
+    
     };
 
     return (
@@ -46,7 +46,7 @@ const Contact = () => {
                         <InputText id="telefono" value={telefono} onChange={(e) => setTelefono (e.target.value)} required />
                     </div>
 
-                    {/* Opción de mensaje antes de llamar */}
+        
                     <div className="p-field">
                         <label>¿Le gustaría que le enviemos un mensaje antes de llamarte?</label>
                         <div className="p-field-radiobutton">
@@ -71,7 +71,7 @@ const Contact = () => {
                         </div>
                     </div>
 
-                    {/* Opción de mejor momento para llamar */}
+                    
                     <div className="p-field">
                         <label htmlFor="bestTime">¿Mejor momento para llamarte?</label>
                         <Dropdown 
@@ -83,7 +83,7 @@ const Contact = () => {
                         />
                     </div>
 
-                    {/* Textarea con FloatLabel */}
+                    
                     <div className="p-field">
                             <p>Cuentano acerca de tu proyecto</p>
                         <FloatLabel>
@@ -94,6 +94,7 @@ const Contact = () => {
                     <Button type="submit" label="Enviar" className="p-mt-2" />
                 </form>
             </div>
+            
 
             <div className="contact-info">
                 <h2>Nuestra Ubicación</h2>

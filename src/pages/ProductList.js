@@ -16,8 +16,10 @@ const products = {
         { id: 8, name: 'Mollejon Pulido', image: '../imagenes-de-proyecto/mollejon/mollejonpulido.jpg', price: 6500, rating: 4.2 },
     ],
     'floor-stone': [
-        { id: 9, name: 'Laja Negra palillo', image: '../imagenes-de-proyecto/lajas/laja-gris-palillo.jpeg', price: 16500, rating: 4.7 },
-        { id: 10, name: 'Laja Gris cuadrada', image: '../imagenes-de-proyecto/lajas/lajagriscuadro.jpg', price: 15000, rating: 4.3 },
+        { id: 9, name: 'Laja Gris palillo', image: '../imagenes-de-proyecto/lajas/laja-gris-palillo.jpeg', price: 16500, rating: 4.7 },
+        { id: 10, name: 'Sanchez palillo', image: '../imagenes-de-proyecto/sanchez/semirrustica_palillo.jpeg', price: 16500, rating: 4.7 },
+        { id: 11, name: 'Laja Gris cuadrada', image: '../imagenes-de-proyecto/lajas/lajagriscuadro.jpg', price: 15000, rating: 4.4 },
+        { id: 12, name: 'Lajón Negro', image: '../imagenes-de-proyecto/lajas/lajon-negro.jpeg', price: 10000, rating: 4.3 },
     ]
 };
 
@@ -80,7 +82,7 @@ const ProductList = () => {
             <div className="product-grid">
                 {filteredProducts.map((product) => (
                     <div key={product.id} className="product-card">
-                        <img src={product.image} alt={product.name} className="product-image" />
+                        <img src={product.image} alt={product.name} className="products-image" />
                         <div className="product-details">
                             <h2>{product.name}</h2>
                             <p>₡{product.price}</p>

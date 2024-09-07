@@ -6,11 +6,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import { CartProvider } from './components/CartContext';  // Mantiene la ruta correcta de CartContext
 
 ReactDOM.render(
-  <React.StrictMode>
+  <CartProvider> {/* CartProvider abre aquí */}
     <App />
-  </React.StrictMode>,
+  </CartProvider>,
   document.getElementById('root')
 );
-

@@ -5,7 +5,7 @@ import '../styles/Products.css';
 const categories = [
     { name: 'Piedra para Jardines', image: '../imagenes-de-proyecto/piedra-para-jardines/cuartillaMollejon.jpg', description: 'Piedras naturales ideales para decoración de jardines.', path: 'garden-stone' },
     { name: 'Piedras de Enchape', image: '../imagenes-de-proyecto/mollejon/mollejonCuadrado.jpg', description: 'Enchapes de piedra para paredes y fachadas.', path: 'enchape-stone' },
-    { name: 'Piedras para Pisos', image: '../imagenes-de-proyecto/lajas/lajon-negro.jpeg', description: 'Piedras resistentes y duraderas para pisos interiores y exteriores.', path: 'floor-stone' }
+    { name: 'Piedras para exteriores', image: '../imagenes-de-proyecto/lajas/lajon-negro.jpeg', description: 'Piedras resistentes y duraderas para pisos y paredes interiores y exteriores.', path: 'floor-stone' }
 ];
 
 const Products = () => {
